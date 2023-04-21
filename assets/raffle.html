@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daflogui Cake|Raffle</title>
+    <link rel="shortcut icon" href="../images/images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../indext.html">Home</a>
+            <a href="./aboutUs.html">About Us</a>
+            <a href="./contact.html">Contactanos</a>
+            <a href="./beneficiosconsejos.html">Benefits and tips</a>
+            <a href="./informacion.html">More information</a>
+            <a href="#">Raffle</a>
+        </nav>
+        <h1>Raffle</h1>
+    </header>
+    <main id="mainraffle">
+        <div>
+            <div>
+                <img class="imagenraffle1" src="../images/images/cup-w-coffee.jpg" alt="Cafe con taza">
+            </div>
+            <div>
+                <img class="imagenraffle2" src="../images/images/heart-coffee.jpg" alt="cafe caliente">
+            </div>
+        </div>
+        <section id="sectionraffle">
+            <h2>You can participate in a raffle. The prize is a coffee pot. </h2>
+            <form action="./show_data/show_data.html"></form>
+            <fieldset class="display">
+                <label for="name">First Name</label>
+                <input type="text" id="name" name="name" placeholder="Ej:Manuel">
+            </fieldset>
+            <fieldset class="display">
+                <label for="surname">Last Name</label>
+                <input type="text" id="surname" name="surname" placeholder="Ej:Mendieta">
+            </fieldset>
+            <fieldset class="display">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </fieldset>
+            <fieldset class="display">
+                <label for="color">What color would you like the coffee pot.</label>
+                <select name="color" id="color">
+                    <option value=" ">Select</option>
+                    <option>White</option>
+                    <option>Black</option>
+                    <option>Blue</option>
+                    <option>Red</option>
+                </select>
+            </fieldset>
+            <fieldset class="display">
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value=" ">Select</option>
+                    <option>Argentina</option>
+                    <option>Brasil</option>
+                    <option>Colombia</option>
+                    <option>Chile</option>
+                    <option>Venezuela</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Payment Options</legend>
+                <input type="checkbox" id="cash" value="Cash">
+                <label for="cash">Cash</label>
+                <input type="checkbox" id="creditcard" value="Credit Card">
+                <label for="creditcard">Credit Card</label>
+                <input type="checkbox" id="debit" value="Debit">
+                <label for="debit">Debit</label>
+            </fieldset>
+            <fieldset class="services">
+                <label for="coments">Services</label>
+                <textarea name="comment" id="coments" cols="15" rows="5"></textarea>
+            </fieldset>
+            <fieldset>
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">I accept terms and conditions</label>
+            </fieldset>
+            <input type="submit" value="Send">
+        </section>
+    </main>
+    <footer id="footerraffle">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d450943.1923270297!2d-82.78395333221772!3d27.994089450948575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2b782b3b9d1e1%3A0xa75f1389af96b463!2sTampa%2C%20Florida%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1682023848593!5m2!1ses!2sar" class="mapagps" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
+</body>
+</html>

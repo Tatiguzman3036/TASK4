@@ -1,0 +1,417 @@
+* :not(ul,li.ol) {margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+header {
+    text-align: center;
+    color: white;
+    background: radial-gradient(circle, rgba(164,94,23,1) 0%, rgba(255,199,78,1) 100%); 
+}
+nav {
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background: radial-gradient(circle, rgba(164,94,23,1) 0%, rgba(42,40,35,1) 100%);
+}
+nav a {
+    color: white;
+    height: 10vh;
+    font-size: larger;
+}    
+body {
+    background: radial-gradient(circle, rgba(18,16,15,1) 0%, rgba(212,158,43,1) 100%);
+}
+.cake {
+    height: 49vh;
+    display: flex;
+    justify-content: center;
+}
+#imagen1home {
+    height: 40vh;
+    padding: 1rem;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+.div-imagen-parrafo{
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    color: white;
+
+}
+#parrafounico{
+    width: 30vw;
+    border: black 3px double;
+    padding: 20px;
+}
+    
+#imagen2home{
+    width: 100%;
+    height: 30vh;
+    border-radius: 20px;
+}
+#mainabout{
+    min-height: 85vh;
+}
+#fotochicacafe{
+    height: 26vh;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 20px;
+}
+.img-about1{
+    width: 15rem;
+    height: 100%;
+    border-radius: 20px;
+    padding: 1rem;
+}
+.parrafoabout1 {
+    width: 15vw;
+    height: 12vh;
+    border: 3px black double;
+    margin-top: 2rem;
+
+}
+#fotocapcake {
+    height: 26vh;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+.img-about2{
+    width: 15rem;
+    height: 26vh;
+    border-radius: 20px;
+    padding: 1rem;
+}
+.parrafoabout2 {
+    width: 15vw;
+    height: 10vh;
+    border: 3px black double;
+    margin-top: 2rem;
+}
+#fotopareja {
+    height: 26vh;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+.img-about3{
+    width: 15rem;
+    height: 26vh;
+    border-radius: 20px;
+    padding: 1rem;
+}
+.parrafoabout3 {
+    width: 15vw;
+    height: 15vh;
+    border: 3px black double;
+    margin-top: 2rem;
+}
+#maincontact {
+    min-height: 70vh;
+}
+#divparrafo{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    height: 10vh
+}
+.parrafocontact{
+    height: 10vh;
+    padding: 20px;
+    color: white;
+
+}
+#divimagen{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+.imagencontact{
+    height: 60vh;
+    border-radius: 20px;
+}
+#divparrafo2{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    color: white;
+}
+#contact{
+    width: 60vw;
+    padding: 2vh}
+#footer{
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    font-size: larger;
+}
+.footercontact {
+    padding: 1vh;
+    color: white;
+    background-color: #d5662f;
+}
+table, tr, th, td{
+    border: 2px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    height: 15vh;
+    width: 40vw;
+}
+.h2informacion{
+    padding: 1rem;
+    height: 20vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.table-wrapper {
+    display: flex;
+    justify-content: center;
+}
+#beneficiosmain {
+    min-height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    padding: 10px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.subtitulo {
+    height: 100%;
+    width: 60vw;
+    align-self: center;
+    border: 3px double black;
+}
+.imagenbeneficio {
+    width: 30vw;
+    height: 35vh;
+    border-radius: 20px;
+}
+#mainraffle{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 1rem;
+}
+.imagenraffle1{
+    height: 30vh;
+    width: 30vw;
+}
+.imagenraffle2{
+    height: 30vh;
+    width: 30vw;
+}
+#footerraffle {
+    width: 50vw;
+    position: sticky;
+    bottom: 0;
+}
+iframe {
+    width: 50vw;
+    height: 20vh;
+}
+#sectionraffle {
+    min-height: 50vh;
+    width: 30vw;
+    color: linen;
+}
+.display {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+textarea {
+    resize: none;    
+}
+input, textarea, select{
+    background: rgb(195,153,132);    
+}
+.services {
+    text-align: start;
+    display: flex;
+}
+@media only screen and (max-width: 767px) {
+    header {
+        position: sticky;
+        top: 0;
+    }
+    nav {
+        flex-direction: column;
+        gap: 1px;
+        position: sticky;
+        top: 0;
+        height: 30vh;
+    }
+    .div-imagen-parrafo {
+        gap: 1rem;
+        padding: 0;
+    }
+    #parrafounico {
+        width: 30vh;
+        height: 60vh;
+    }
+    #fotochicacafe {
+        gap: 1rem;
+        height: 35vh;
+    }
+    .img-about1 {
+        height: 25vh;
+        width: 40vw;
+    }
+    .parrafoabout1 {
+        width: 35vw;
+        height: 30vh;
+    }
+    #fotocapcake {
+        height: 40vh;
+        gap: 2rem;
+    }
+    .img-about2 {
+       width: 45vw;
+       height: 25vh;
+    }
+    .parrafoabout2 {
+        width: 35vw;
+        height: 25vh;
+    }
+    #fotopareja {
+        gap: 2rem;
+    }
+    .img-about3 {
+        width: 35vw;
+        height: 30vh;
+    }
+    .parrafoabout3 {
+        width: 45vw;
+        height: 30vh;
+    }
+    #divimagen{
+        height: 40vh;
+    }
+    .imagencontact{
+        height: 36vh;
+    }
+    #divparrafo2 {
+        font-size: unset;
+    }
+    #contact {
+        width: 90vw;
+        height: 20vh;
+    }
+    #footer {
+        position: sticky;
+        bottom: 0;
+        flex-direction: column;
+        gap: 0;
+    }
+    .footercontact {
+        height: 5vh;
+    }
+    .imagenbeneficio {
+        width: 40vw;
+        height: 35vh;
+    }
+    .subtitulo {
+        font-size: small;
+    }
+    #mainraffle {
+        gap: 0.5rem;
+    }
+    #sectionraffle {
+        width: 65vw;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    header {
+        position: sticky;
+        top: 0;
+    }
+    nav {
+        position: sticky;
+        top: 0;
+    }
+    #fotochicacafe {
+        gap: 3rem;
+    }
+    .parrafoabout1 {
+        width: 20vw;
+        height: 20vh;
+    }
+    #fotocapcake {
+        height: 30vh;
+        margin-top: 1rem;
+        gap: 6rem;
+    }
+    .parrafoabout2 {
+        width: 25vh;
+        height: 25vh;
+    }
+    #fotopareja {
+        gap: 6rem;
+    }
+    .parrafoabout3 {
+        height: 38vh;
+        width: 15vw;
+    }
+    #divimagen{
+        height: 40vh;
+    }
+    .imagencontact{
+        height: 40vh;
+    }
+    #contact {
+        width: 90vw;
+        height: 20vh;
+    }
+    .imagenbeneficio {
+        width: 45vw;
+        height: 40vh;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    header {
+        position: sticky;
+        top: 0;
+    }
+    nav {
+        position: sticky;
+        top: 0;
+    }
+    .parrafoabout1 {
+        height: 20vh;
+    }
+    #fotocapcake {
+        margin-top: 1rem;
+    }
+    .parrafoabout2 {
+        height: 15vh;
+    }
+    #fotopareja {
+        margin-top: 1rem;
+    }
+    .parrafoabout3 {
+        height: 30vh;
+    }
+    #divimagen{
+        height: 40vh;
+    }
+    .imagencontact{
+        height: 40vh;
+    }
+    iframe {
+        height: 40vh;
+        width: 35vw;
+    }
+}
